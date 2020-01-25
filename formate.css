@@ -1,0 +1,75 @@
+p { font-size: 1.5em; text-align: justify; font-family: Helvetica; color: white; margin-right: 20px; margin-left: 20px; }
+h1 { font-size: 2.5em; background-color: DarkGreen; text-align: center; color: white }
+h2 { font-size: 1.5em; background-color: DarkGreen; color: LightYellow; text-align: center; font-family: Helvetica, Arial, Geneva, sans-serif;}
+li { font-size: 1.5em; color: Crimson; padding: 10px}
+li li { font-size: 1em; }
+tr { font-size: 1.2em; background-color: Thistle; }
+th { font-size: 1.3em; text-align: center; }
+#interessantes { font-size: 1.3em; color: Aqua; float: center; text-align: center; padding-left: 7em; }
+html {  background-image: url("Dschungel.jfif"); 
+background-color: black;
+   background-repeat: repeat-x; }
+.flex {  display: flex; justify-content: center; align-items: center; } 
+.picsleft {  display: flex; justify-content: left; align-items: left; float: left; margin-right: 20px; margin-left: 20px; } 
+.picsright {  display: flex; justify-content: right; align-items: right; float: right; margin-right: 20px; margin-left: 20px; } 
+ul { list-style-type: square;
+ list-style-position: outside;
+ list-style-image: none; }
+nav {
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+  background: black;
+  font-size: 16px;
+  margin: 1;
+}
+  nav ul {
+  margin: 10px;
+  padding: 0;
+}
+ 
+nav a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 0px;
+}
+nav ul li {
+  position: relative;
+  float: left;
+  list-style: none;
+}
+ 
+nav ul li:hover {
+  background: LimeGreen;
+}
+ 
+nav ul li a {
+    padding: 20px;
+}
+nav ul ul {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  background: DarkGreen;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+ 
+nav ul ul li {
+  float: none;
+  width: 200px;
+  border-bottom: 1px solid #555;
+}
+ 
+nav ul ul li a {
+  padding: 10px 20px;
+}
+nav ul li:hover > ul {
+  top: 100%;
+  left: 0;
+}
+nav ul ul li:hover > ul {
+  top: 0;
+  left: 200px;
+}
+a { background-color: DarkGreen; }
